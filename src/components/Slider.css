@@ -1,0 +1,41 @@
+.carousal-main{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.carousal-info-btns{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.carousal-info-btns h2{
+    color: #2B3330;
+    font-weight: 400;
+    margin:0 15px;
+    font: 1rem;
+    text-align: center;
+}
+.carousal-content{
+    width: 80%;
+    
+}
+
+
+@media screen and (max-width:1100px) {
+    .carousal-main{
+        display: block;
+    }
+    .carousal-info-btns{
+        width: auto;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 20px;
+        
+    }
+    .carousal-content{
+        width: auto;
+    }
+    
+}

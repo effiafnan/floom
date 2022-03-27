@@ -1,0 +1,13 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #E3F1E5;
+height: 70px;
+text-align: center;
+}
+.contact-text{
+max-width: 80%;
+color: #2B3330;
+font-size: 1rem;
+}

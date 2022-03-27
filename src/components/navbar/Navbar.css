@@ -1,0 +1,118 @@
+
+.navbar-container{
+height: 78px;
+padding-bottom: 8px;
+/* padding-top: 80px; */
+background-color: #EFFFFD;
+/* position: relative; */
+box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.23);
+-webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.23);
+}
+nav{
+    padding: 0 1rem;
+}
+/* TOP NAV */
+.nav-top-container{
+    padding-top: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.left-nav-icons{
+    display: flex;
+    font-size: 12px;
+}
+.left-nav-icons .flag-img{
+    margin-left: 8px;
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+
+/* burger menu icon for desktop screen */
+.left-nav-burger{
+    display: none;
+}
+
+.burger-icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo{
+    color: #2B3330;
+    font:4rem
+    }
+.logo:hover{
+        cursor: pointer;
+        }
+
+.right-nav-icons{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.right-nav-icons .nav-icons{
+    padding: 0px 0.5rem;
+    cursor: pointer;
+}
+
+
+
+
+/* Navbar bottom */
+
+.nav-bottom-container{
+    height: 18px;
+    padding-top: 8px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.nav-items{
+    display: flex;
+    font-size:12px;
+    list-style: none;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    -webkit-box-pack: center
+}
+.nav-link{
+    padding: 0 16px;
+    /* padding-bottom: 10px; */
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #236EC7;
+}
+.slide{
+    background-color: #2B3330;
+}
+
+/* Tablet and small sizes */
+
+@media screen and (max-width:1100px) {
+    /* s */
+        .nav-bottom-container{
+            display: none;
+        }
+        .left-nav-icons{
+            display: none;
+        }
+        .left-nav-burger{
+            display: block;
+        }
+        .nav-mobile{
+            display: none;
+        }
+}

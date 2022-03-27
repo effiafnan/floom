@@ -1,0 +1,130 @@
+.review-container{
+    margin: 20px 0;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* padding: 0 20px; */
+}
+.review-count-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+.review-count-container >h1{
+    text-align: center;
+    max-width: 60%;
+    color: #2B3330;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.reviews-box{
+    width: 189px;
+    height: 101px;
+    background-color: #12CF6C;
+    border-radius: 2px;
+    border: 2px solid #12CF6C;
+}
+.review-box-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    align-items: center;
+    padding: 7px 0 ;
+}
+.review-box-header > h3{
+    font-size: 14px;
+    font-weight:lighter;
+}
+.review-box-body{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.review-box-body >*{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+
+.review-slider-container{
+    display:block;
+    margin-top: 6rem;
+    width: 50%;
+    height: 100%;
+    
+}
+.review-carousal{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.review-carousal > *{
+    margin: 5px auto;
+    color: #2B3330;
+    max-width: 80%;
+}
+.review-rating{
+    opacity: 50%;
+    font-size: 10px;
+}
+.review-content{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2B3330;
+}
+.review-name{
+    font-size: 14px;
+}
+.button-send{
+    padding: 15px;
+    width: 193px;
+    margin-top: 1rem;
+    border: none;
+    /* background-color: #2B3330; */
+    color: red;
+
+  }
+
+
+@media screen and (max-width:1100px) {
+    .review-container{
+
+        display: block;
+    height: 400px;
+    width: 100%;
+    }
+    .review-count-container{
+        
+        width: 100%;
+    }
+    
+        .review-slider-container{
+    display:block;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+        
+    
+}
