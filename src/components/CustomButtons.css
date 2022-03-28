@@ -3,7 +3,7 @@
     padding: 0px 8px;
     margin: 0px 8px;
     position: absolute;
-    bottom: 75px;
+    bottom: 70px;
     left: 50px;
     /* background-color: aqua; */
 }
@@ -27,7 +27,7 @@ margin: 8px 8px;
         bottom: 0;
         left: auto;
         top: 0px;
-        right: 40px;
+        right: 20px;
         
         /* background-color: aqua; */
     }

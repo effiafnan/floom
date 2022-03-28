@@ -13,11 +13,6 @@ const Carousal = () => {
                 return (<Slider key = {item.id} SlideHeading={item.slideheading} headings={item.heading} imageUrls={item.images} descriptions={item.description} prices={item.price}/>)
                 
             })}
-            
-                    
-            
-                    
-
         </div>
         
      );
