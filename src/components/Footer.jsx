@@ -22,10 +22,10 @@ const Footer = () => {
                 <a href="/">CONTACT US</a>
               </li>
               <li>
-                <a href="/">ABOUT US</a>
+                <a href="/">ABOUT</a>
               </li>
               <li>
-                <a href="/">MY ACCOUNT</a>
+                <a href="/">ACCOUNT</a>
               </li>
             </ul>
           </div>

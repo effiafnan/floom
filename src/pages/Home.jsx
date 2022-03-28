@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar/Navbar";
 import Header from "../components/Header";
-import Carousal from "../components/Carousal";
+import Carousal from "../components/Carousal/Carousal";
 import ReviewsSection from "../components/Reviews";
 import Features from "../components/Features";
 import Contact from "../components/Contactus";

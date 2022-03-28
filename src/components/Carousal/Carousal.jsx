@@ -1,5 +1,5 @@
 import "./Carousal.css"
-import { SlideMenu } from "../data/data";
+import { SlideMenu } from "../../data/data";
 import Slider from "./Slider";
 
 const Carousal = () => {

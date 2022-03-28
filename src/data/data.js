@@ -181,11 +181,11 @@ export const AboutDetails =[
 export const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
-        breakpoint: { max: 3000, min: 1024 },
+        breakpoint: { max: 3000, min: 1270 },
         items: 4
       },
       desktop: {
-        breakpoint: { max: 1024, min: 800 },
+        breakpoint: { max: 1270, min: 800 },
         items: 3
       },
       tablet: {

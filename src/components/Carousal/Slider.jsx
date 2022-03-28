@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 import CustomButtons from "./CustomButtons";
-import {responsive} from "../data/data"
+import {responsive} from "../../data/data"
 
 const Slider = ({SlideHeading,headings,imageUrls,descriptions,prices}) => {
   
